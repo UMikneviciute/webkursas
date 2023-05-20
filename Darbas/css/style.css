@@ -7,7 +7,7 @@
 html {
     font-family: 'Manrope', sans-serif;
     /* font-family: 'Playfair Display', serif; */
-    font-size: 18px;
+    font-size: 16px;
 }
 
 body {
@@ -16,23 +16,25 @@ body {
 }
 
 .site-header {
-    border: solid 2px;
+    border: solid 1px;
     background-color: #fff;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
-    height: 125px;
+    /* height: 125px; */
     display: block;
+    padding: 0 60px;
 }
 
 .container {
-    border: solid 2px red;
+    /* border: solid 1px red; */
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .flex-container {
-    border: solid 2px yellow;
+    border: solid 1px yellow;
     display: flex;
 }
 
@@ -41,6 +43,12 @@ body {
     flex-direction: row;
     align-items: center;
     padding: 0px;
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+
+.main-nav {
+    margin-right: 10px;
 }
 
 .main-nav li, .social-nav li {
@@ -55,5 +63,103 @@ padding: 0;
 .main-nav a {
     color: #555555;
     text-decoration: none;
-    
+    font-size: 1.125rem;
+    margin: 0 5px;
+    padding: 10px 17px;   
 }
+
+.main-nav a:hover {
+    background-color: #F0FFFF;
+    border-radius: 10px;
+}
+
+.social-nav a {
+    color: #141414;
+    text-decoration: none; 
+    font-size: 1rem;
+    margin: 0 5px;
+    padding: 10px 17px; 
+}
+
+/* .main-nav{
+    margin: ;
+} */
+
+/*HERO*/
+
+.hero {
+    border: solid 1px magenta;
+    width: 100%;
+    /* height: 100vh; */
+    background: linear-gradient(
+    to right,
+    #EBF3F5 0%,
+    #EBF3F5 50%,
+    rgb(56, 70, 73) 50%,
+    rgb(56, 70, 73) 100%
+
+    /* position: absolute;
+    width: 900px;
+    height: 925px;
+    left: 1020px;
+    top: 125px; */
+  );
+}
+
+.hero .left {
+    margin: 235px 0;
+    max-width: 510px;
+    border: solid 2px;
+}
+
+.right img {
+    border: solid 1px white;
+    width: 550px;
+    height: 545px;
+    left: 942px;
+    top: 315px;
+    padding: 59px 68px 59px 57px;
+}
+
+.right  {
+    border: solid 10px #EBF3F5;
+    margin: 135px 611px 136px 230px;
+
+
+ /* width: 561px;
+    height: 663px;
+    top: 256px;
+    left: 999px;
+    position: absolute; */
+}
+
+.left h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4.375rem;
+    color: #141414;
+    letter-spacing: -0.01em;
+    line-height: 115%;
+    font-weight: 700;
+}
+
+.left p {
+    font-size: 1.1875rem;
+    font-weight: 400;
+    line-height: 170%;
+    color: #555555;
+}
+
+.left button {
+    font-size: 0.875rem;
+    width: 250px;
+    height: 65px;
+    background-color: #5c8692;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 125%;
+    font-weight: 800;
+    border: none;
+    letter-spacing: 0.12em;
+    border-radius: 3px;
+}
+

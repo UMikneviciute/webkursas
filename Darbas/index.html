@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -20,22 +21,24 @@
             <div class="logo">
                 <a href="#"><img src="Images/logo.jpeg" alt="logo of recepies"></a>
             </div>
-            <nav class="main-nav">
-                <ul class="flex-container">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#recipes">Recipes</a></li>
-                    <li><a href="#sign-up">Sign Up!</a></li>
-                    <li><a href="#contact-us">Contact Us!</a></li>
-                </ul>
-            </nav>       
-            <nav class="social-nav">
-                <ul class="flex-container">
-                    <li><a href="#" target="_blank"><i class="bi bi-facebook"></i></a></li>
-                    <li><a href="#" target="_blank"><i class="bi bi-twitter"></i></a></li>
-                    <li><a href="#" target="_blank"><i class="bi bi-instagram"></a></i></li>
-                </ul>
-            </nav>
+            <div class="flex-container">
+                <nav class="main-nav">
+                    <ul class="flex-container">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#recipes">Recipes</a></li>
+                        <li><a href="#sign-up">Sign Up!</a></li>
+                        <li><a href="#contact-us">Contact Us!</a></li>
+                    </ul>
+                </nav>       
+                <nav class="social-nav">
+                    <ul class="flex-container">
+                        <li><a href="#" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="bi bi-instagram"></a></i></li>
+                    </ul>
+                </nav>
+            </div>
                 <!--<nav class="mobile-nav">
                     <ul id="mMenu">
                         <li><a href="#home">Home</a></li>
@@ -47,20 +50,23 @@
                 </nav> -->
         </div>
     </header>
-    <div class="content first"> <!--pirmas puslapis-->
-        <div class="left">
-            <h1 id="home">Placeholder</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto aut nostrum</p>
-            <button>Let's Go!</button>
+    <section class="hero">
+        <div class="container flex-container">
+            <div class="left">
+                <h1 id="home">Placeholder</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto aut nostrum</p>
+                <button>Let's Go!</button>
+            </div>
+            <div class="right">
+                <img src="./Images/main-photo.jpg" alt="placeholder">
+            </div> 
         </div>
-        <div class="right">
-            <img src="./Images/main-photo.jpg" alt="placeholder">
-        </div>
-    </div>
+    </section>
+    
     <div class="content second">
         <h3 id="recipes">Recipes</h3>
         <nav class="recipes">
-            <ul>
+            <ul class="flex-container">
                 <li><a href="#breakfast-recipes"><img src="./Images/breakfast.jpg" alt="breakfast"></a> <!--nuotrauka turi nuvesti į turinio vietą-->
                     <h3>Breakfast</h3>
                     <p>Placeholder</p></li>
