@@ -15,6 +15,10 @@ body {
     background-color: #EBF3F5;
 }
 
+ul {
+    padding: 0;
+}
+
 .site-header {
     border: solid 1px;
     background-color: #fff;
@@ -163,3 +167,81 @@ padding: 0;
     border-radius: 3px;
 }
 
+/* RECEPTAI BENDRI */
+
+.content1 {
+    background-color: #fff;
+}
+
+h3#recipes {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8125rem;
+    font-weight: 700;
+    color: #141414;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.recipes ul {
+    justify-content: space-between;
+}
+
+.recipes ul li {
+    list-style: none;
+}
+
+.recipes ul li h3 {
+    font-family: 'Playfair Display', serif;
+    color: #141414;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.625rem;
+    line-height: 120%;
+}
+
+.recipes ul li p {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 165%;
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+
+/* PUSRYČIAI */
+
+.content2 {
+    background-color: #EBF3F5;
+}
+
+.content2 h2 {
+    font-family: 'Playfair Display', serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 2.8125rem;
+    line-height: 130%;
+    text-align: center;
+    color: #141414;
+}
+.breakfast1,
+.breakfast2 {
+    font-size: 1.125rem;
+    line-height: 165%;
+    color: #555555;
+}
+
+.content2 h3,
+.content3 h3,
+.content4 h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.375rem;
+    color: #141414;
+    line-height: 130%;
+}
+
+.breakfast2 {
+    flex-direction: row-reverse;
+}
+
+.breakfast2 img {
+    margin-left: 50px;
+}
