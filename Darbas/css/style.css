@@ -30,11 +30,11 @@ ul {
 }
 
 .container {
-    /* border: solid 1px red; */
+    border: solid 1px red;
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 20px;
+    /* padding: 0 20px; */
 }
 
 .flex-container {
@@ -213,7 +213,9 @@ h3#recipes {
     background-color: #EBF3F5;
 }
 
-.content2 h2 {
+.content2 h2, /*receptų skilčių pavadinimai*/
+.content3 h2,
+.content4 h2 {
     font-family: 'Playfair Display', serif;
     font-style: bold;
     font-weight: 700;
@@ -222,14 +224,18 @@ h3#recipes {
     text-align: center;
     color: #141414;
 }
-.breakfast1,
-.breakfast2 {
+.breakfast1, /*visų receptų ir ingredientų šriftai*/
+.breakfast2,
+.lunch1,
+.lunch2,
+.dinner1,
+.dinner2 {
     font-size: 1.125rem;
     line-height: 165%;
     color: #555555;
 }
 
-.content2 h3,
+.content2 h3, /*receptų pavadinimai*/
 .content3 h3,
 .content4 h3 {
     font-family: 'Playfair Display', serif;
@@ -238,10 +244,89 @@ h3#recipes {
     line-height: 130%;
 }
 
-.breakfast2 {
+.breakfast2,
+.lunch2,
+.dinner2 {
     flex-direction: row-reverse;
 }
 
-.breakfast2 img {
-    margin-left: 50px;
+.instructions {
+    padding-left: 25px;
+}
+
+.content2 ul,
+.content3 ul,
+.content4 ul {
+    padding-left: 40px;
+}
+
+/*PIETŪS*/
+
+.content3 {
+    background-color: #fff;
+}
+
+/*KONTAKTINĖ FORMA*/
+.contact {
+    background-color: #fff;
+}
+
+.section-heading {
+    align-self: center;
+}
+
+.contact h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2.8125rem;
+    line-height: 130%;
+    letter-spacing: -1%;
+    color: #141414;
+}
+
+.contact p {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 175%;
+    color: #555555;
+}
+
+.contact-form {
+    background-color: #EBF3F5;
+    padding: 66px 75px;
+    margin: 132px 0;
+}
+
+.contact-form input {
+    background-color: #EBF3F5;
+    width: 400px;
+    height: 65px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+
+textarea {
+    background-color: #EBF3F5;
+    width: 400px;
+    height: 136px;
+    border: 1px solid black;
+}
+
+.contact-form button {
+    background-color: #5c8692;
+    width: 400px;
+    height: 65px;
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 800;
+    line-height: 125%;
+    text-align: center;
+    vertical-align: center;
+    letter-spacing: 12%;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.contact .flex-container {
+    justify-content: space-between;
 }
