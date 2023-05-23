@@ -15,6 +15,8 @@ body {
     background-color: #EBF3F5;
 }
 
+/*HEADER*/
+
 ul {
     padding: 0;
 }
@@ -37,7 +39,7 @@ ul {
 }
 
 .flex-container {
-    border: solid 1px yellow;
+    /* border: solid 1px yellow; */
     display: flex;
 }
 
@@ -46,8 +48,6 @@ ul {
     flex-direction: row;
     align-items: center;
     padding: 28px 60px;
-
-
 }
 
 .main-nav {
@@ -83,10 +83,6 @@ padding: 0;
     margin: 0 5px;
     padding: 10px 17px; 
 }
-
-/* .main-nav{
-    margin: ;
-} */
 
 /*HERO*/
 
@@ -126,7 +122,7 @@ padding: 0;
 
 .right  {
     border: solid 10px #EBF3F5;
-    margin: 135px 611px 136px 230px;
+    margin: 135px 611px 136px 100px;
 
 
  /* width: 561px;
@@ -423,6 +419,70 @@ textarea {
 .contact .flex-container {
     justify-content: space-between;
 }
+/*BLOG*/
+.blog {
+    background-color: #fff;
+}
+
+.blog .section-heading {
+    text-align: center;
+}
+
+.blog .section-heading p{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    line-height: 154%;
+    letter-spacing: 10%;
+    color: #5c8692;
+}
+
+.blog .section-heading h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2.8125rem;
+    line-height: 130%;
+    letter-spacing: -1%;
+    color: #141414;
+}
+
+.blog .flex-container {
+    justify-content: space-between;
+}
+
+.blog-content-item {
+    background-color: #EBF3F5;
+    /*trūksta tarpų tarp elementų */
+}
+
+.blog-content-item h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 2%;
+    color: #141414;
+}
+
+.blog-content-item p{
+    font-size: 1.125rem;
+    line-height: 155%;
+    letter-spacing: 2%;
+    color: #555555;
+}
+
+.blog button {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 0.875rem;
+    line-height: 125%;
+    letter-spacing: 12%;
+    color: #141414;
+    padding: 23px 41px;
+    border: solid 2px #5c8692;
+    background-color: #fff;
+    margin: 60px 475px 150px;
+}
 
 /*FOOTER*/
 
@@ -434,6 +494,9 @@ textarea {
 .footer .footer-social.flex-container {
      justify-content: space-between;
      align-items: center;
+     border-bottom: solid 2px rgb(64, 75, 79, 1);
+     padding-bottom: 52px;
+     margin-top: 66px;
 }
 
 .footer .logo h2 {
@@ -443,6 +506,13 @@ textarea {
     font-weight: 700;
     line-height: 125%;
     letter-spacing: 2%;
+}
+
+.footer h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 1.375rem;
+    line-height: 140%;
 }
 
 .footer .social-nav ul li a {
@@ -462,6 +532,13 @@ textarea {
 
 .footer-main ul {
     list-style: none;
+}
+
+.footer-main ul li {
+    line-height: 200%;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    letter-spacing: -1%;
 }
 
 .footer-main a {
